@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA1B73BF24772A1900092263 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B73BE24772A1900092263 /* AppDelegate.swift */; };
+		DA1B73C124772A1900092263 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B73C024772A1900092263 /* SceneDelegate.swift */; };
+		DA1B73C324772A1900092263 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B73C224772A1900092263 /* ViewController.swift */; };
+		DA1B73C624772A1900092263 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1B73C424772A1900092263 /* Main.storyboard */; };
+		DA1B73C924772A1900092263 /* SwiftFinance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA1B73C724772A1900092263 /* SwiftFinance.xcdatamodeld */; };
+		DA1B73CB24772A1C00092263 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA1B73CA24772A1C00092263 /* Assets.xcassets */; };
+		DA1B73CE24772A1C00092263 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1B73CC24772A1C00092263 /* LaunchScreen.storyboard */; };
+		DA1B73D924772A1C00092263 /* SwiftFinanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B73D824772A1C00092263 /* SwiftFinanceTests.swift */; };
+		DA1B73E424772A1C00092263 /* SwiftFinanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1B73E324772A1C00092263 /* SwiftFinanceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA1B73D524772A1C00092263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1B73B324772A1900092263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1B73BA24772A1900092263;
+			remoteInfo = SwiftFinance;
+		};
+		DA1B73E024772A1C00092263 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA1B73B324772A1900092263 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA1B73BA24772A1900092263;
+			remoteInfo = SwiftFinance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA1B73BB24772A1900092263 /* SwiftFinance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFinance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1B73BE24772A1900092263 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA1B73C024772A1900092263 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DA1B73C224772A1900092263 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA1B73C524772A1900092263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA1B73C824772A1900092263 /* SwiftFinance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftFinance.xcdatamodel; sourceTree = "<group>"; };
+		DA1B73CA24772A1C00092263 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA1B73CD24772A1C00092263 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA1B73CF24772A1C00092263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1B73D424772A1C00092263 /* SwiftFinanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFinanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1B73D824772A1C00092263 /* SwiftFinanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFinanceTests.swift; sourceTree = "<group>"; };
+		DA1B73DA24772A1C00092263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA1B73DF24772A1C00092263 /* SwiftFinanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFinanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA1B73E324772A1C00092263 /* SwiftFinanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFinanceUITests.swift; sourceTree = "<group>"; };
+		DA1B73E524772A1C00092263 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA1B73B824772A1900092263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1B73D124772A1C00092263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1B73DC24772A1C00092263 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1B73B224772A1900092263 = {
+			isa = PBXGroup;
+			children = (
+				DA1B73BD24772A1900092263 /* SwiftFinance */,
+				DA1B73D724772A1C00092263 /* SwiftFinanceTests */,
+				DA1B73E224772A1C00092263 /* SwiftFinanceUITests */,
+				DA1B73BC24772A1900092263 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA1B73BC24772A1900092263 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B73BB24772A1900092263 /* SwiftFinance.app */,
+				DA1B73D424772A1C00092263 /* SwiftFinanceTests.xctest */,
+				DA1B73DF24772A1C00092263 /* SwiftFinanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA1B73BD24772A1900092263 /* SwiftFinance */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B73BE24772A1900092263 /* AppDelegate.swift */,
+				DA1B73C024772A1900092263 /* SceneDelegate.swift */,
+				DA1B73C224772A1900092263 /* ViewController.swift */,
+				DA1B73C424772A1900092263 /* Main.storyboard */,
+				DA1B73CA24772A1C00092263 /* Assets.xcassets */,
+				DA1B73CC24772A1C00092263 /* LaunchScreen.storyboard */,
+				DA1B73CF24772A1C00092263 /* Info.plist */,
+				DA1B73C724772A1900092263 /* SwiftFinance.xcdatamodeld */,
+			);
+			path = SwiftFinance;
+			sourceTree = "<group>";
+		};
+		DA1B73D724772A1C00092263 /* SwiftFinanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B73D824772A1C00092263 /* SwiftFinanceTests.swift */,
+				DA1B73DA24772A1C00092263 /* Info.plist */,
+			);
+			path = SwiftFinanceTests;
+			sourceTree = "<group>";
+		};
+		DA1B73E224772A1C00092263 /* SwiftFinanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA1B73E324772A1C00092263 /* SwiftFinanceUITests.swift */,
+				DA1B73E524772A1C00092263 /* Info.plist */,
+			);
+			path = SwiftFinanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA1B73BA24772A1900092263 /* SwiftFinance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1B73E824772A1C00092263 /* Build configuration list for PBXNativeTarget "SwiftFinance" */;
+			buildPhases = (
+				DA1B73B724772A1900092263 /* Sources */,
+				DA1B73B824772A1900092263 /* Frameworks */,
+				DA1B73B924772A1900092263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFinance;
+			productName = SwiftFinance;
+			productReference = DA1B73BB24772A1900092263 /* SwiftFinance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA1B73D324772A1C00092263 /* SwiftFinanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1B73EB24772A1C00092263 /* Build configuration list for PBXNativeTarget "SwiftFinanceTests" */;
+			buildPhases = (
+				DA1B73D024772A1C00092263 /* Sources */,
+				DA1B73D124772A1C00092263 /* Frameworks */,
+				DA1B73D224772A1C00092263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1B73D624772A1C00092263 /* PBXTargetDependency */,
+			);
+			name = SwiftFinanceTests;
+			productName = SwiftFinanceTests;
+			productReference = DA1B73D424772A1C00092263 /* SwiftFinanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA1B73DE24772A1C00092263 /* SwiftFinanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA1B73EE24772A1C00092263 /* Build configuration list for PBXNativeTarget "SwiftFinanceUITests" */;
+			buildPhases = (
+				DA1B73DB24772A1C00092263 /* Sources */,
+				DA1B73DC24772A1C00092263 /* Frameworks */,
+				DA1B73DD24772A1C00092263 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA1B73E124772A1C00092263 /* PBXTargetDependency */,
+			);
+			name = SwiftFinanceUITests;
+			productName = SwiftFinanceUITests;
+			productReference = DA1B73DF24772A1C00092263 /* SwiftFinanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA1B73B324772A1900092263 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "CJ Good";
+				TargetAttributes = {
+					DA1B73BA24772A1900092263 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					DA1B73D324772A1C00092263 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DA1B73BA24772A1900092263;
+					};
+					DA1B73DE24772A1C00092263 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = DA1B73BA24772A1900092263;
+					};
+				};
+			};
+			buildConfigurationList = DA1B73B624772A1900092263 /* Build configuration list for PBXProject "SwiftFinance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA1B73B224772A1900092263;
+			productRefGroup = DA1B73BC24772A1900092263 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA1B73BA24772A1900092263 /* SwiftFinance */,
+				DA1B73D324772A1C00092263 /* SwiftFinanceTests */,
+				DA1B73DE24772A1C00092263 /* SwiftFinanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA1B73B924772A1900092263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1B73CE24772A1C00092263 /* LaunchScreen.storyboard in Resources */,
+				DA1B73CB24772A1C00092263 /* Assets.xcassets in Resources */,
+				DA1B73C624772A1900092263 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1B73D224772A1C00092263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1B73DD24772A1C00092263 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA1B73B724772A1900092263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1B73C324772A1900092263 /* ViewController.swift in Sources */,
+				DA1B73BF24772A1900092263 /* AppDelegate.swift in Sources */,
+				DA1B73C924772A1900092263 /* SwiftFinance.xcdatamodeld in Sources */,
+				DA1B73C124772A1900092263 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1B73D024772A1C00092263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1B73D924772A1C00092263 /* SwiftFinanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA1B73DB24772A1C00092263 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA1B73E424772A1C00092263 /* SwiftFinanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA1B73D624772A1C00092263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1B73BA24772A1900092263 /* SwiftFinance */;
+			targetProxy = DA1B73D524772A1C00092263 /* PBXContainerItemProxy */;
+		};
+		DA1B73E124772A1C00092263 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA1B73BA24772A1900092263 /* SwiftFinance */;
+			targetProxy = DA1B73E024772A1C00092263 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA1B73C424772A1900092263 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1B73C524772A1900092263 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1B73CC24772A1C00092263 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1B73CD24772A1C00092263 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA1B73E624772A1C00092263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA1B73E724772A1C00092263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA1B73E924772A1C00092263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHN5LJ379Q;
+				INFOPLIST_FILE = SwiftFinance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOODAPPSCO.SwiftFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA1B73EA24772A1C00092263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHN5LJ379Q;
+				INFOPLIST_FILE = SwiftFinance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOODAPPSCO.SwiftFinance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA1B73EC24772A1C00092263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHN5LJ379Q;
+				INFOPLIST_FILE = SwiftFinanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOODAPPSCO.SwiftFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFinance.app/SwiftFinance";
+			};
+			name = Debug;
+		};
+		DA1B73ED24772A1C00092263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHN5LJ379Q;
+				INFOPLIST_FILE = SwiftFinanceTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOODAPPSCO.SwiftFinanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFinance.app/SwiftFinance";
+			};
+			name = Release;
+		};
+		DA1B73EF24772A1C00092263 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHN5LJ379Q;
+				INFOPLIST_FILE = SwiftFinanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOODAPPSCO.SwiftFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftFinance;
+			};
+			name = Debug;
+		};
+		DA1B73F024772A1C00092263 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GHN5LJ379Q;
+				INFOPLIST_FILE = SwiftFinanceUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.GOODAPPSCO.SwiftFinanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftFinance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA1B73B624772A1900092263 /* Build configuration list for PBXProject "SwiftFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1B73E624772A1C00092263 /* Debug */,
+				DA1B73E724772A1C00092263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1B73E824772A1C00092263 /* Build configuration list for PBXNativeTarget "SwiftFinance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1B73E924772A1C00092263 /* Debug */,
+				DA1B73EA24772A1C00092263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1B73EB24772A1C00092263 /* Build configuration list for PBXNativeTarget "SwiftFinanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1B73EC24772A1C00092263 /* Debug */,
+				DA1B73ED24772A1C00092263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA1B73EE24772A1C00092263 /* Build configuration list for PBXNativeTarget "SwiftFinanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA1B73EF24772A1C00092263 /* Debug */,
+				DA1B73F024772A1C00092263 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DA1B73C724772A1900092263 /* SwiftFinance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DA1B73C824772A1900092263 /* SwiftFinance.xcdatamodel */,
+			);
+			currentVersion = DA1B73C824772A1900092263 /* SwiftFinance.xcdatamodel */;
+			path = SwiftFinance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DA1B73B324772A1900092263 /* Project object */;
+}
