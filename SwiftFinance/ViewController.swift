@@ -9,8 +9,9 @@
 import UIKit
 import Foundation
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
     
+    @IBOutlet weak var exchangeLabel: UILabel!
     @IBOutlet weak var searchBarText: UITextField!
     @IBOutlet weak var searchButton: UIButton!
     
@@ -20,7 +21,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var pointsChangeLabel: UILabel!
     @IBOutlet weak var todaysHighLabel: UILabel!
     @IBOutlet weak var todaysLowLabel: UILabel!
-    
+        
     struct StockQuote: Codable {
         var symbol: String
         var price: Float
@@ -40,18 +41,28 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        // Text Field Delegate
+        searchBarText.delegate = self
+        // Round borders around the search button
         searchButton.layer.cornerRadius = 5
+        self.titleLabel.isEnabled = false
+        self.priceLabel.isEnabled = false
+        self.exchangeLabel.isEnabled = false
+        self.percentChangeLabel.isEnabled = false
+        self.pointsChangeLabel.isEnabled = false
+        self.todaysHighLabel.isEnabled = false
+        self.todaysLowLabel.isEnabled = false
     }
     
     func createStockDisplay(stock: StockQuote) {
         DispatchQueue.main.async {
-            self.titleLabel.text = stock.symbol + " (" + stock.exchange + ")"
-            self.priceLabel.text = "\(stock.price.rounded())"
-            self.percentChangeLabel.text = "\(stock.changesPercentage.rounded())"
-            self.pointsChangeLabel.text = "\(stock.change.rounded())"
-            self.todaysHighLabel.text = "\(stock.dayHigh.rounded())"
-            self.todaysLowLabel.text = "\(stock.dayLow.rounded())"
+            self.titleLabel.text = stock.symbol
+            self.priceLabel.text = "$\(stock.price.rounded())"
+            self.exchangeLabel.text = stock.exchange
+            self.percentChangeLabel.text = "\(stock.changesPercentage.rounded())%"
+            self.pointsChangeLabel.text = "\(stock.change.rounded()) points"
+            self.todaysHighLabel.text = "$\(stock.dayHigh.rounded())"
+            self.todaysLowLabel.text = "$\(stock.dayLow.rounded())"
             if (stock.changesPercentage > 0) {
                 self.percentChangeLabel.textColor = UIColor.green
             } else {
@@ -86,9 +97,15 @@ class ViewController: UIViewController {
     }
     // Gather stock data when the search button is pressed
     @IBAction func onSearchPress(_ sender: Any) {
-        getStockData(ticker: searchBarText.text!.uppercased(), apiKey: "")
+        getStockData(ticker: searchBarText.text!.uppercased(), apiKey: "a4309126267e88ff20a7e88bc93d3b1a")
+        self.view.endEditing(true)
+        self.titleLabel.isEnabled = true
+        self.priceLabel.isEnabled = true
+        self.exchangeLabel.isEnabled = true
+        self.percentChangeLabel.isEnabled = true
+        self.pointsChangeLabel.isEnabled = true
+        self.todaysHighLabel.isEnabled = true
+        self.todaysLowLabel.isEnabled = true
     }
-    
-
 }
 
